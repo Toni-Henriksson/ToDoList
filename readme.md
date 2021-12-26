@@ -1,0 +1,1 @@
+My first react native application, followed a tutorial for this one ;) 
