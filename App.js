@@ -30,6 +30,7 @@ export default function App() {
         <View style={styles.items}>
           {/* Implementing task here we created in components/Task */}
           {
+            // Map through tasks and display every task on screen. :)
             taskItems.map((item, index) => {
               return(
                 <TouchableOpacity key={index} onPress={() => completeTask(index)}>
